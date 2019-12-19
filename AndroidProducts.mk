@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/du.mk
 
-COMMON_LUNCH_CHOICES := \
-    aosp_kenzo-userdebug \
-    aosp_kenzo-eng
+#COMMON_LUNCH_CHOICES := \
+#    du_kenzo-userdebug \
+#    du_kenzo-eng
