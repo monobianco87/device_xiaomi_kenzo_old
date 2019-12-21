@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/syberia_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_kenzo-userdebug \
-    aosp_kenzo-eng
+    syberia_kenzo-userdebug \
+    syberia_kenzo-eng
