@@ -14,8 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_kenzo.mk
+    $(LOCAL_DIR)/carbon_kenzo.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_kenzo-userdebug \
-    aosp_kenzo-eng
+    carbon_kenzo-userdebug \
+    carbon_kenzo-eng \
+    carbon_kenzo-user
+
