@@ -54,3 +54,6 @@ on property:persist.sys.fp.goodix=0
 
 on property:persist.sys.fp.goodix=1
     start gx_fpd
+
+on property:apexd.status=ready
+    symlink /system/lib64/libashmemd_client.so /system/apex/com.android.media.swcodec/lib64/libashmemd_client.so
