@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
 # Inherit some common Havoc stuff.
-$(call inherit-product, vendor/syberia/config/common.mk)
+$(call inherit-product, vendor/syberia/config/telephony.mk)
 
 
 # Set those variables here to overwrite the inherited values.
@@ -37,4 +37,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT=Xiaomi/kenzo/kenzo:6.0.1/MMB29M/V8.2.1.0.MHOCNDL:user/release-keys
 
-export SKIP_ABI_CHECKS := true
+#export SKIP_ABI_CHECKS=true
